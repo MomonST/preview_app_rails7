@@ -152,3 +152,266 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 50ms (Views: 18.2ms | ActiveRecord: 9.7ms | Allocations: 5701)
 
 
+Started GET "/posts/new" for ::1 at 2025-06-22 21:36:04 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 216)
+  Rendered posts/_form.html.erb (Duration: 24.7ms | Allocations: 3197)
+  Rendered posts/new.html.erb within layouts/application (Duration: 27.0ms | Allocations: 3564)
+  Rendered layout layouts/application.html.erb (Duration: 171.6ms | Allocations: 47046)
+Completed 200 OK in 336ms (Views: 183.6ms | ActiveRecord: 93.1ms | Allocations: 62597)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:36:37 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/posts/new" for ::1 at 2025-06-22 21:41:10 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 192)
+  Rendered posts/_form.html.erb (Duration: 4.4ms | Allocations: 1498)
+  Rendered posts/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1728)
+  Rendered layout layouts/application.html.erb (Duration: 65.0ms | Allocations: 17250)
+Completed 200 OK in 163ms (Views: 69.8ms | ActiveRecord: 47.1ms | Allocations: 27010)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:41:11 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/posts/new" for ::1 at 2025-06-22 21:42:42 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 2.3ms | Allocations: 953)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1016)
+  Rendered layout layouts/application.html.erb (Duration: 61.4ms | Allocations: 16121)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms | Allocations: 16373)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:42:42 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/posts/new" for ::1 at 2025-06-22 21:44:46 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 2.0ms | Allocations: 950)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1013)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 16149)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.0ms | Allocations: 16404)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:44:46 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/posts/new" for ::1 at 2025-06-22 21:52:36 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 2.4ms | Allocations: 956)
+  Rendered posts/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1019)
+  Rendered layout layouts/application.html.erb (Duration: 61.0ms | Allocations: 16191)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.0ms | Allocations: 16442)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:52:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/posts/new" for ::1 at 2025-06-22 21:56:59 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 10.4ms | Allocations: 956)
+  Rendered posts/new.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1019)
+  Rendered layout layouts/application.html.erb (Duration: 79.9ms | Allocations: 16292)
+Completed 200 OK in 87ms (Views: 82.5ms | ActiveRecord: 0.0ms | Allocations: 16550)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:56:59 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started POST "/posts" for ::1 at 2025-06-22 21:58:19 +0900
+Processing by PostsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"text"=>"山の写真", "image"=>#<ActionDispatch::Http::UploadedFile:0x000000010d8eea78 @tempfile=#<Tempfile:/var/folders/4v/skv4pd9j0yjd9rtgphxj4h340000gn/T/RackMultipart20250622-27088-m6ns0h.jpg>, @content_type="image/jpeg", @original_filename="fuji_nikkou.jpg", @headers="Content-Disposition: form-data; name=\"post[image]\"; filename=\"fuji_nikkou.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"送信"}
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mPost Create (40.2ms)[0m  [1m[32mINSERT INTO `posts` (`text`, `created_at`, `updated_at`) VALUES ('山の写真', '2025-06-22 12:58:19.783927', '2025-06-22 12:58:19.783927')[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mActiveStorage::Attachment Load (421.9ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`record_id` = 2 AND `active_storage_attachments`.`record_type` = 'Post' AND `active_storage_attachments`.`name` = 'image' LIMIT 1[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mActiveStorage::Blob Create (109.7ms)[0m  [1m[32mINSERT INTO `active_storage_blobs` (`key`, `filename`, `content_type`, `metadata`, `service_name`, `byte_size`, `checksum`, `created_at`) VALUES ('eoq0k78o66km352xmjl62ew3m84m', 'fuji_nikkou.jpg', 'image/jpeg', '{\"identified\":true}', 'local', 115028, 'av8Kbr28bc/URxjEVAXjIQ==', '2025-06-22 12:58:20.309999')[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mActiveStorage::Attachment Create (2.8ms)[0m  [1m[32mINSERT INTO `active_storage_attachments` (`name`, `record_type`, `record_id`, `blob_id`, `created_at`) VALUES ('image', 'Post', 2, 2, '2025-06-22 12:58:20.426933')[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mPost Update (2.7ms)[0m  [1m[33mUPDATE `posts` SET `posts`.`updated_at` = '2025-06-22 12:58:20.434320' WHERE `posts`.`id` = 2[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mTRANSACTION (44.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+[36m  Disk Storage (2.9ms) [0m[32mUploaded file to key: eoq0k78o66km352xmjl62ew3m84m (checksum: av8Kbr28bc/URxjEVAXjIQ==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 4a48cd44-68a0-49fb-8ccb-a45fe533dde5) to Async(default) with arguments: #<GlobalID:0x000000010d2c8d60 @uri=#<URI::GID gid://preview-app-rails7/ActiveStorage::Blob/2>>
+Redirected to http://localhost:3000/
+Completed 302 Found in 1127ms (ActiveRecord: 860.0ms | Allocations: 33260)
+
+
+Started GET "/" for ::1 at 2025-06-22 21:58:20 +0900
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5]   [1m[36mActiveStorage::Blob Load (1.2ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 2 LIMIT 1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5] Performing ActiveStorage::AnalyzeJob (Job ID: 4a48cd44-68a0-49fb-8ccb-a45fe533dde5) from Async(default) enqueued at 2025-06-22T12:58:20.575070000Z with arguments: #<GlobalID:0x000000010d1e4480 @uri=#<URI::GID gid://preview-app-rails7/ActiveStorage::Blob/2>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5] Skipping image analysis because the ruby-vips gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5]   [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+Processing by PostsController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5]   [1m[36mActiveStorage::Blob Update (29.7ms)[0m  [1m[33mUPDATE `active_storage_blobs` SET `active_storage_blobs`.`metadata` = '{\"identified\":true,\"analyzed\":true}' WHERE `active_storage_blobs`.`id` = 2[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5]   [1m[36mActiveStorage::Attachment Load (1.0ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`blob_id` = 2[0m
+  [1m[36mPost Load (10.1ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  ↳ app/views/posts/index.html.erb:3
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5]   [1m[36mPost Load (9.1ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 2[0m
+  [1m[36mActiveStorage::Attachment Load (32.8ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`record_id` = 1 AND `active_storage_attachments`.`record_type` = 'Post' AND `active_storage_attachments`.`name` = 'image' LIMIT 1[0m
+  ↳ app/views/posts/index.html.erb:5
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5]   [1m[36mPost Update (8.1ms)[0m  [1m[33mUPDATE `posts` SET `posts`.`updated_at` = '2025-06-22 12:58:20.782303' WHERE `posts`.`id` = 2[0m
+  [1m[36mActiveStorage::Blob Load (36.1ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/posts/index.html.erb:5
+  [1m[36mActiveStorage::Attachment Load (22.9ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`record_id` = 2 AND `active_storage_attachments`.`record_type` = 'Post' AND `active_storage_attachments`.`name` = 'image' LIMIT 1[0m
+  ↳ app/views/posts/index.html.erb:5
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5]   [1m[36mTRANSACTION (66.3ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [4a48cd44-68a0-49fb-8ccb-a45fe533dde5] Performed ActiveStorage::AnalyzeJob (Job ID: 4a48cd44-68a0-49fb-8ccb-a45fe533dde5) from Async(default) in 215.83ms
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 2 LIMIT 1[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 186.4ms | Allocations: 12615)
+  Rendered layout layouts/application.html.erb (Duration: 206.4ms | Allocations: 15337)
+Completed 200 OK in 214ms (Views: 103.2ms | ActiveRecord: 104.3ms | Allocations: 15721)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:21 +0900
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7cb28f0d12a76afd95fbbe35cce1b4be1878328e/fuji_nikkou.jpg" for ::1 at 2025-06-22 21:58:21 +0900
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+Processing by ActiveStorage::Blobs::RedirectController#show as PNG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7cb28f0d12a76afd95fbbe35cce1b4be1878328e", "filename"=>"fuji_nikkou"}
+  [1m[36mActiveStorage::Blob Load (7.8ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+  [1m[36mActiveStorage::Blob Load (7.9ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 2 LIMIT 1[0m
+[36m  Disk Storage (3.6ms) [0m[34mGenerated URL for file at key: ttcgdmv7ozzdqy1ll7kgu1ypy5e3 (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjIxLjMxNVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ded7711e70acb48251af5766fbdace09467f0832/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjIxLjMxNVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ded7711e70acb48251af5766fbdace09467f0832/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png
+Completed 302 Found in 211ms (ActiveRecord: 7.7ms | Allocations: 4942)
+
+
+[36m  Disk Storage (2.0ms) [0m[34mGenerated URL for file at key: eoq0k78o66km352xmjl62ew3m84m (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaVzl4TUdzM09HODJObXR0TXpVeWVHMXFiRFl5WlhjemJUZzBiUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1aMWFtbGZibWxyYTI5MUxtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuWm5WcWFWOXVhV3RyYjNVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyNS0wNi0yMlQxMzowMzoyMS4zMjFaIiwicHVyIjoiYmxvYl9rZXkifX0=--e83c75cff2cfbb8a7f5bac68ffdb9b15ad580923/fuji_nikkou.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaVzl4TUdzM09HODJObXR0TXpVeWVHMXFiRFl5WlhjemJUZzBiUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1aMWFtbGZibWxyYTI5MUxtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuWm5WcWFWOXVhV3RyYjNVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyNS0wNi0yMlQxMzowMzoyMS4zMjFaIiwicHVyIjoiYmxvYl9rZXkifX0=--e83c75cff2cfbb8a7f5bac68ffdb9b15ad580923/fuji_nikkou.jpg
+Completed 302 Found in 222ms (ActiveRecord: 7.9ms | Allocations: 5329)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjIxLjMxNVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--ded7711e70acb48251af5766fbdace09467f0832/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:21 +0900
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaVzl4TUdzM09HODJObXR0TXpVeWVHMXFiRFl5WlhjemJUZzBiUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1aMWFtbGZibWxyYTI5MUxtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuWm5WcWFWOXVhV3RyYjNVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyNS0wNi0yMlQxMzowMzoyMS4zMjFaIiwicHVyIjoiYmxvYl9rZXkifX0=--e83c75cff2cfbb8a7f5bac68ffdb9b15ad580923/fuji_nikkou.jpg" for ::1 at 2025-06-22 21:58:21 +0900
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"fuji_nikkou"}
+Completed 200 OK in 5ms (ActiveRecord: 0.0ms | Allocations: 301)
+
+
+Processing by ActiveStorage::DiskController#show as PNG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms | Allocations: 158)
+
+
+Started GET "/posts/1" for ::1 at 2025-06-22 21:58:27 +0900
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/posts_controller.rb:38:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (3.7ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`record_id` = 1 AND `active_storage_attachments`.`record_type` = 'Post' AND `active_storage_attachments`.`name` = 'image' LIMIT 1[0m
+  ↳ app/views/posts/show.html.erb:3
+  [1m[36mActiveStorage::Blob Load (0.8ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/posts/show.html.erb:3
+  Rendered posts/show.html.erb within layouts/application (Duration: 18.9ms | Allocations: 1776)
+  Rendered layout layouts/application.html.erb (Duration: 32.1ms | Allocations: 4438)
+Completed 200 OK in 74ms (Views: 28.8ms | ActiveRecord: 5.2ms | Allocations: 5706)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:27 +0900
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7cb28f0d12a76afd95fbbe35cce1b4be1878328e/fuji_nikkou.jpg" for ::1 at 2025-06-22 21:58:27 +0900
+Processing by ActiveStorage::Blobs::RedirectController#show as PNG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7cb28f0d12a76afd95fbbe35cce1b4be1878328e", "filename"=>"fuji_nikkou"}
+  [1m[36mActiveStorage::Blob Load (0.9ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 2 LIMIT 1[0m
+[36m  Disk Storage (1.0ms) [0m[34mGenerated URL for file at key: ttcgdmv7ozzdqy1ll7kgu1ypy5e3 (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjI4LjA3OFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--fbee7cd2440c0c750df328ba2ca1e1674ecdeeaf/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png)[0m
+[36m  Disk Storage (0.7ms) [0m[34mGenerated URL for file at key: eoq0k78o66km352xmjl62ew3m84m (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaVzl4TUdzM09HODJObXR0TXpVeWVHMXFiRFl5WlhjemJUZzBiUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1aMWFtbGZibWxyYTI5MUxtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuWm5WcWFWOXVhV3RyYjNVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyNS0wNi0yMlQxMzowMzoyOC4wNzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--b92458e21474e31e4f1bf7d3441c18b7230cae34/fuji_nikkou.jpg)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjI4LjA3OFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--fbee7cd2440c0c750df328ba2ca1e1674ecdeeaf/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaVzl4TUdzM09HODJObXR0TXpVeWVHMXFiRFl5WlhjemJUZzBiUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1aMWFtbGZibWxyYTI5MUxtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuWm5WcWFWOXVhV3RyYjNVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyNS0wNi0yMlQxMzowMzoyOC4wNzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--b92458e21474e31e4f1bf7d3441c18b7230cae34/fuji_nikkou.jpg
+Completed 302 Found in 38ms (ActiveRecord: 0.9ms | Allocations: 3403)
+
+
+Completed 302 Found in 22ms (ActiveRecord: 0.6ms | Allocations: 2652)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjI4LjA3OFoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--fbee7cd2440c0c750df328ba2ca1e1674ecdeeaf/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:28 +0900
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaVzl4TUdzM09HODJObXR0TXpVeWVHMXFiRFl5WlhjemJUZzBiUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpU1dsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SW1aMWFtbGZibWxyYTI5MUxtcHdaeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuWm5WcWFWOXVhV3RyYjNVdWFuQm5CanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyNS0wNi0yMlQxMzowMzoyOC4wNzlaIiwicHVyIjoiYmxvYl9rZXkifX0=--b92458e21474e31e4f1bf7d3441c18b7230cae34/fuji_nikkou.jpg" for ::1 at 2025-06-22 21:58:28 +0900
+Processing by ActiveStorage::DiskController#show as JPEG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"fuji_nikkou"}
+Completed 200 OK in 6ms (ActiveRecord: 0.0ms | Allocations: 158)
+
+
+Processing by ActiveStorage::DiskController#show as PNG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 158)
+
+
+Started GET "/posts/1/edit" for ::1 at 2025-06-22 21:58:30 +0900
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/posts_controller.rb:38:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 1.8ms | Allocations: 987)
+  Rendered posts/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1151)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3171)
+Completed 200 OK in 19ms (Views: 9.7ms | ActiveRecord: 0.4ms | Allocations: 3886)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:30 +0900
+Processing by ActiveStorage::Blobs::RedirectController#show as PNG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+  [1m[36mActiveStorage::Blob Load (0.6ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+[36m  Disk Storage (1.0ms) [0m[34mGenerated URL for file at key: ttcgdmv7ozzdqy1ll7kgu1ypy5e3 (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjMwLjY0MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--0078fda99047ac6c0b48ae545203e7220c84171b/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjMwLjY0MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--0078fda99047ac6c0b48ae545203e7220c84171b/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png
+Completed 302 Found in 12ms (ActiveRecord: 0.6ms | Allocations: 1432)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjMwLjY0MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--0078fda99047ac6c0b48ae545203e7220c84171b/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:30 +0900
+Processing by ActiveStorage::DiskController#show as PNG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 158)
+
+
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:34 +0900
+Processing by ActiveStorage::Blobs::RedirectController#show as PNG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+  [1m[36mActiveStorage::Blob Load (2.5ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+[36m  Disk Storage (0.6ms) [0m[34mGenerated URL for file at key: ttcgdmv7ozzdqy1ll7kgu1ypy5e3 (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjM0Ljg4MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--d219b942e240f04a4f3b201769d12b14e66c0b31/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjM0Ljg4MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--d219b942e240f04a4f3b201769d12b14e66c0b31/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png
+Completed 302 Found in 35ms (ActiveRecord: 2.5ms | Allocations: 1431)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhkSFJqWjJSdGRqZHZlbnBrY1hreGJHdzNhMmQxTVhsd2VUVmxNd1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjAzOjM0Ljg4MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--d219b942e240f04a4f3b201769d12b14e66c0b31/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 21:58:34 +0900
+Processing by ActiveStorage::DiskController#show as PNG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 158)
+
+
