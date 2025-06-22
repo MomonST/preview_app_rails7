@@ -447,3 +447,128 @@ FOREIGN KEY (`blob_id`)
   [1m[36mActiveRecord::SchemaMigration Create (28.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20230623081213')[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('8715493904723300520')[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for ::1 at 2025-06-22 22:41:29 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (34.6ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  ↳ app/views/posts/index.html.erb:3
+  Rendered posts/index.html.erb within layouts/application (Duration: 87.6ms | Allocations: 1189)
+  Rendered layout layouts/application.html.erb (Duration: 302.2ms | Allocations: 49198)
+Completed 200 OK in 381ms (Views: 271.3ms | ActiveRecord: 42.4ms | Allocations: 61043)
+
+
+Started GET "/posts/new" for ::1 at 2025-06-22 22:41:32 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 209)
+  Rendered posts/_form.html.erb (Duration: 8.2ms | Allocations: 1888)
+  Rendered posts/new.html.erb within layouts/application (Duration: 13.1ms | Allocations: 2151)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 4177)
+Completed 200 OK in 95ms (Views: 18.3ms | ActiveRecord: 58.1ms | Allocations: 9266)
+
+
+Started POST "/posts" for ::1 at 2025-06-22 22:41:45 +0900
+Processing by PostsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"text"=>"テストです。", "images"=>[#<ActionDispatch::Http::UploadedFile:0x000000010cdebae0 @tempfile=#<Tempfile:/var/folders/4v/skv4pd9j0yjd9rtgphxj4h340000gn/T/RackMultipart20250622-28550-m9r8u0.png>, @content_type="image/png", @original_filename="ChatGPT Image 2025年4月7日 11_44_11.png", @headers="Content-Disposition: form-data; name=\"post[images][]\"; filename=\"ChatGPT Image 2025年4月7日 11_44_11.png\"\r\nContent-Type: image/png\r\n">]}, "commit"=>"送信"}
+  [1m[36mTRANSACTION (20.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mPost Create (25.7ms)[0m  [1m[32mINSERT INTO `posts` (`text`, `created_at`, `updated_at`) VALUES ('テストです。', '2025-06-22 13:41:45.755311', '2025-06-22 13:41:45.755311')[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mActiveStorage::Blob Create (35.9ms)[0m  [1m[32mINSERT INTO `active_storage_blobs` (`key`, `filename`, `content_type`, `metadata`, `service_name`, `byte_size`, `checksum`, `created_at`) VALUES ('zu9rk62umhpuc7ta7xs6ozskvmp9', 'ChatGPT Image 2025年4月7日 11_44_11.png', 'image/png', '{\"identified\":true}', 'local', 3022650, 'nykAZdmrXhXBA2OAxZyWdw==', '2025-06-22 13:41:45.832938')[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mActiveStorage::Attachment Create (0.8ms)[0m  [1m[32mINSERT INTO `active_storage_attachments` (`name`, `record_type`, `record_id`, `blob_id`, `created_at`) VALUES ('images', 'Post', 1, 1, '2025-06-22 13:41:45.881016')[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mPost Update (2.6ms)[0m  [1m[33mUPDATE `posts` SET `posts`.`updated_at` = '2025-06-22 13:41:45.884448' WHERE `posts`.`id` = 1[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:14:in `create'
+[36m  Disk Storage (14.3ms) [0m[32mUploaded file to key: zu9rk62umhpuc7ta7xs6ozskvmp9 (checksum: nykAZdmrXhXBA2OAxZyWdw==)[0m
+[ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: a10d2a1d-010d-48e3-8b17-65783846bbdd) to Async(default) with arguments: #<GlobalID:0x000000010d44c268 @uri=#<URI::GID gid://preview-app-rails7/ActiveStorage::Blob/1>>
+Redirected to http://localhost:3000/
+Completed 302 Found in 313ms (ActiveRecord: 105.5ms | Allocations: 37178)
+
+
+Started GET "/" for ::1 at 2025-06-22 22:41:45 +0900
+Processing by PostsController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd]   [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd] Performing ActiveStorage::AnalyzeJob (Job ID: a10d2a1d-010d-48e3-8b17-65783846bbdd) from Async(default) enqueued at 2025-06-22T13:41:45.946033000Z with arguments: #<GlobalID:0x000000010d527b60 @uri=#<URI::GID gid://preview-app-rails7/ActiveStorage::Blob/1>>
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd] Skipping image analysis because the ruby-vips gem isn't installed
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd]   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Load (1.9ms)[0m  [1m[34mSELECT `posts`.* FROM `posts`[0m
+  ↳ app/views/posts/index.html.erb:3
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd]   [1m[36mActiveStorage::Blob Update (3.2ms)[0m  [1m[33mUPDATE `active_storage_blobs` SET `active_storage_blobs`.`metadata` = '{\"identified\":true,\"analyzed\":true}' WHERE `active_storage_blobs`.`id` = 1[0m
+  [1m[36mActiveStorage::Attachment Load (3.6ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`record_id` = 1 AND `active_storage_attachments`.`record_type` = 'Post' AND `active_storage_attachments`.`name` = 'images'[0m
+  ↳ app/views/posts/index.html.erb:5
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd]   [1m[36mActiveStorage::Attachment Load (1.3ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`blob_id` = 1[0m
+  [1m[36mActiveStorage::Blob Load (5.5ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/posts/index.html.erb:5
+  Rendered posts/index.html.erb within layouts/application (Duration: 88.6ms | Allocations: 9365)
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd]   [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd]   [1m[36mPost Update (0.7ms)[0m  [1m[33mUPDATE `posts` SET `posts`.`updated_at` = '2025-06-22 13:41:46.083063' WHERE `posts`.`id` = 1[0m
+  Rendered layout layouts/application.html.erb (Duration: 114.6ms | Allocations: 15300)
+Completed 200 OK in 116ms (Views: 96.5ms | ActiveRecord: 18.9ms | Allocations: 15601)
+
+
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd]   [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [ActiveStorage::AnalyzeJob] [a10d2a1d-010d-48e3-8b17-65783846bbdd] Performed ActiveStorage::AnalyzeJob (Job ID: a10d2a1d-010d-48e3-8b17-65783846bbdd) from Async(default) in 132.09ms
+Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 22:41:46 +0900
+Processing by ActiveStorage::Blobs::RedirectController#show as PNG
+  Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9fed9106648bbcc64925674aefd61d60a5055dfe", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+  [1m[36mActiveStorage::Blob Load (0.7ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+[36m  Disk Storage (1.5ms) [0m[34mGenerated URL for file at key: zu9rk62umhpuc7ta7xs6ozskvmp9 (http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlblU1Y21zMk1uVnRhSEIxWXpkMFlUZDRjelp2ZW5OcmRtMXdPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjQ2OjQ2LjE4MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--a9902c1c337f1c395eb332e4f263b54b756e9cc3/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png)[0m
+Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlblU1Y21zMk1uVnRhSEIxWXpkMFlUZDRjelp2ZW5OcmRtMXdPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjQ2OjQ2LjE4MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--a9902c1c337f1c395eb332e4f263b54b756e9cc3/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png
+Completed 302 Found in 13ms (ActiveRecord: 0.7ms | Allocations: 2606)
+
+
+Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhlblU1Y21zMk1uVnRhSEIxWXpkMFlUZDRjelp2ZW5OcmRtMXdPUVk2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpQVpKcGJteHBibVU3SUdacGJHVnVZVzFsUFNKRGFHRjBSMUJVSUVsdFlXZGxJREl3TWpVbE0wWTBKVE5HTnlVelJpQXhNVjgwTkY4eE1TNXdibWNpT3lCbWFXeGxibUZ0WlNvOVZWUkdMVGduSjBOb1lYUkhVRlFsTWpCSmJXRm5aU1V5TURJd01qVWxSVFVsUWprbFFqUTBKVVUySlRsREpUZzROeVZGTmlVNU55VkJOU1V5TURFeFh6UTBYekV4TG5CdVp3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lEbWx0WVdkbEwzQnVad1k3QmxRNkVYTmxjblpwWTJWZmJtRnRaVG9LYkc5allXdz0iLCJleHAiOiIyMDI1LTA2LTIyVDEzOjQ2OjQ2LjE4MVoiLCJwdXIiOiJibG9iX2tleSJ9fQ==--a9902c1c337f1c395eb332e4f263b54b756e9cc3/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%887%E6%97%A5%2011_44_11.png" for ::1 at 2025-06-22 22:41:46 +0900
+Processing by ActiveStorage::DiskController#show as PNG
+  Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"ChatGPT Image 2025年4月7日 11_44_11"}
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms | Allocations: 259)
+
+
+Started GET "/posts/1" for ::1 at 2025-06-22 22:41:50 +0900
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/posts_controller.rb:38:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  [1m[36mActiveStorage::Attachment Load (0.9ms)[0m  [1m[34mSELECT `active_storage_attachments`.* FROM `active_storage_attachments` WHERE `active_storage_attachments`.`record_id` = 1 AND `active_storage_attachments`.`record_type` = 'Post' AND `active_storage_attachments`.`name` = 'images'[0m
+  ↳ app/views/posts/show.html.erb:3
+  [1m[36mActiveStorage::Blob Load (0.4ms)[0m  [1m[34mSELECT `active_storage_blobs`.* FROM `active_storage_blobs` WHERE `active_storage_blobs`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/posts/show.html.erb:3
+  Rendered posts/show.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1864)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4538)
+Completed 200 OK in 21ms (Views: 10.8ms | ActiveRecord: 1.8ms | Allocations: 5812)
+
+
+Started GET "/posts/1/edit" for ::1 at 2025-06-22 22:41:53 +0900
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/posts_controller.rb:38:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 3.9ms | Allocations: 992)
+  Rendered posts/edit.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1156)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3179)
+Completed 200 OK in 41ms (Views: 12.2ms | ActiveRecord: 0.6ms | Allocations: 3904)
+
+
+Started GET "/posts/new" for ::1 at 2025-06-22 22:42:00 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 2.6ms | Allocations: 968)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1031)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3058)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3312)
+
+
