@@ -213,3 +213,18 @@ Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-
   
 ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
   
+Started GET "/posts/new" for ::1 at 2025-06-22 21:52:36 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 2.4ms | Allocations: 956)
+  Rendered posts/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1019)
+  Rendered layout layouts/application.html.erb (Duration: 61.0ms | Allocations: 16191)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.0ms | Allocations: 16442)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:52:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
