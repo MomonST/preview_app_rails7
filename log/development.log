@@ -152,3 +152,19 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 50ms (Views: 18.2ms | ActiveRecord: 9.7ms | Allocations: 5701)
 
 
+Started GET "/posts/new" for ::1 at 2025-06-22 21:36:04 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 216)
+  Rendered posts/_form.html.erb (Duration: 24.7ms | Allocations: 3197)
+  Rendered posts/new.html.erb within layouts/application (Duration: 27.0ms | Allocations: 3564)
+  Rendered layout layouts/application.html.erb (Duration: 171.6ms | Allocations: 47046)
+Completed 200 OK in 336ms (Views: 183.6ms | ActiveRecord: 93.1ms | Allocations: 62597)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:36:37 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
