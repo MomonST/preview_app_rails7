@@ -168,3 +168,48 @@ Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-
   
 ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
   
+Started GET "/posts/new" for ::1 at 2025-06-22 21:41:10 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 192)
+  Rendered posts/_form.html.erb (Duration: 4.4ms | Allocations: 1498)
+  Rendered posts/new.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1728)
+  Rendered layout layouts/application.html.erb (Duration: 65.0ms | Allocations: 17250)
+Completed 200 OK in 163ms (Views: 69.8ms | ActiveRecord: 47.1ms | Allocations: 27010)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:41:11 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/posts/new" for ::1 at 2025-06-22 21:42:42 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 2.3ms | Allocations: 953)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1016)
+  Rendered layout layouts/application.html.erb (Duration: 61.4ms | Allocations: 16121)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms | Allocations: 16373)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:42:42 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
+Started GET "/posts/new" for ::1 at 2025-06-22 21:44:46 +0900
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered posts/_form.html.erb (Duration: 2.0ms | Allocations: 950)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1013)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 16149)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.0ms | Allocations: 16404)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-22 21:44:46 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/.well-known/appspecific/com.chrome.devtools.json"):
+  
